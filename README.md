@@ -28,7 +28,7 @@ This project is an extension of the work done in [my previous repository](https:
 This repository contains a single file, **`neural_network.cu`**, which implements a simple neural network with one hidden layer for classifying MNIST digits. The CUDA kernels handle both the forward and backward passes in parallel, allowing efficient training on the GPU.
 
 1. **Forward Pass**: 
-   - Computes the linear transformation (\(Z_1\), \(Z_2\)) and non-linear activation (ReLU, softmax).
+   - Computes the linear transformation ($Z_1$, $Z_2$) and non-linear activation (ReLU, softmax).
    - Parallelized such that each thread processes one training example.
 
 2. **Backward Pass**:
